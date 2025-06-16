@@ -78,30 +78,7 @@ Use of other outside RTL/code is prohibited.
 This MP is split into 3 mandatory checkpoints, and a final evaluation after the
 design competition.
 
-## Submissions
-
-Below is a schedule for `mp_ooo`.
-
-![schedule](./docs/images/ooo_timeline.jpg)
-
-As you can see, `mp_ooo` is a fast-paced MP with heavy dependencies between
-checkpoints. It is in your best interest to start early and stay synced with
-your mentor.
-
-You will be graded by your mentor during your weekly meetings, based on a commit
-of your choice This commit should be pushed to github before the stated deadline
-on each checkpoint.
-
-## Late Policy
-
-Each checkpoint will be graded with the standard late policy shown [on the class
-website](https://courses.grainger.illinois.edu/ece411/fa2024/policy.html).
-
-There will be no partial credit awarded beyond what is outlined in the rubrics below.
-
 ## Checkpoint 1 (15 points)
-
-**_Due 10/28, 11:59PM_**
 
 In this checkpoint, you will be designing the high-level microarchitecture for
 your processor, creating the front-end fetch stage, and integrating it with a
@@ -126,10 +103,6 @@ time when debugging CP3.
     - Your program counter should be initialized to `0x1ECEB000`
 
 ## Checkpoint 2 (15 points)
-
-~**_Due 11/4, 11:59PM_**~
-
-**_Due 11/5, 11:59PM_**
 
 By the end of this checkpoint, your processor will be able to execute all
 immediate and register instructions in the RV32I spec. In addition, you will be
@@ -164,10 +137,6 @@ to demonstrate what you have completed falls on you.
 
 ## Checkpoint 3 (20 points)
 
-**_Recommended Due Date: 11/11, 11:59PM_**
-
-**_Hard Cutoff: 11/15, 11:59PM_**
-
 By the end of this checkpoint, your processor will be able to execute the
 entirety of the RV32IM spec (barring the exceptions outlined
 [here](#Introduction)). You will also integrate data caches and instruction
@@ -190,12 +159,6 @@ leaderboard. In the meantime, you can use random/targeted tests,
 Additionally, there will be no partial credit for this checkpoint - you will 
 need to fulfill all the leaderboard criteria listed below to get credit.
 
-Ideally, you are able to complete this checkpoint by 11/11. Your graded
-deliverable will be completing a successful run on the leaderboard by
-11/15. This is construed as a leaderboard run with a nonzero score. As the
-leaderboard will only begin running on 11/12, we highly recommend you construct
-your own tests prior to this date.
-
 # Final Submission: Competition + Advanced Features + Report (50)
 ## Competition (20)
 
@@ -204,11 +167,6 @@ baseline processor and your peers' processors while performing various
 staff-selected benchmarks. You will be evaluated on correctness and relative
 performance. An incorrect run of a benchmark (per spike log) will not score any
 points.
-
-The initial benchmark suite and the related performance metrics will be
-announced on the first day of the leaderboard (*11/15*). We will add more
-programs to this suite over the following 3 weeks, and freeze the benchmark list
-on *11/29*.
 
 See [COMPETITION.md](./docs/COMPETITION.md) for more information on grading and the
 leaderboard calculations.
@@ -278,24 +236,6 @@ staff (and fellow students) about your design. In addition, you need to collect
 your performance analyses and paper designs together as a final report that
 documents your accomplishments. More information about both the presentation and
 report will be released closer to the deadline.
-
-## Group Evaluations
-
-At the end of the project, each group member will submit feedback on how well
-the group worked together and how each member contributed to the project. The
-evaluation, along with feedback provided at TA meetings throughout the semester,
-will be used to judge individual contribution to the project.
-
-Although the group evaluation occurs at the end of the project, this should not
-be the first time your mentor TA hears about problems that might be
-occurring. If there are major problems with collaboration, the problems should
-be reflected in your TA meetings, or in private communication with your TA. The
-responses on the group evaluation should not come as a surprise to anyone.
-
-In the event of significant to extreme imbalance in work distribution between
-team members, course staff reserves the right to apply corrective bonuses and
-penalties to the affected students. This will be done only on a case-by-case
-basis.
 
 # Memory Model
 
