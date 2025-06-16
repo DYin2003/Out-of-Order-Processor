@@ -20,26 +20,6 @@ specification to get you started with your design, as a large portion of this
 machine problem is left open ended for you to explore design options that
 interest you.
 
-## Point Breakdown
-
-| Checkpoint          | Points |
-|---------------------|--------|
-| CP 1                | 15     |
-| CP 2                | 15     |
-| CP 3                | 20     |
-| Competition         | 20     |
-| Advanced Features   | 20     |
-| Presentation/Report | 10     |
-
-**Total Points:** 100
-
-Detailed rubrics for each checkpoint will be added below closer to their release
-date.
-
-Students can also score up to 10 points of extra credit by making additional
-advanced features - more about this will be detailed in the Advanced Features
-section. You can also receive +2 extra credit points on CP2 for Verilator tooling. The maximum possible grade on this MP will be *112 points*.
-
 ## Overview
 
 By the end of this MP, you can expect to have made an out-of-order processor
